@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(131, 197, 255);
+}
+
+.div-body div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#dev-1 {
+    background-color: rgb(224, 84, 84);
+}
+div#dev-2 {
+    background-color: rgb(84, 117, 224);
+}
+div#dev-3 {
+    background-color: rgb(107, 224, 84);
+}
+h1 {
+    color: white;
+}
